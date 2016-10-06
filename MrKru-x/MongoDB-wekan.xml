@@ -12,7 +12,7 @@
   <Category/>
   <WebUI/>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://rawgit.com/MrKru-x/unraid-docker-templates/master/MrKru-x/img/mongo.sh-600x600.png</Icon>
   <ExtraParams/>
   <DateInstalled>1475716305</DateInstalled>
   <Description> MongoDB document databases provide high availability and easy scalability.</Description>
