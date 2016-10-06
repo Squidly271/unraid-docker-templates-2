@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>MongoDB-wekan</Name>
+  <Beta>False</Beta>
+  <Project>https://www.mongodb.com/</Project>
   <Repository>mongo</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/_/mongo/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support/>
@@ -13,7 +15,7 @@
   <Icon/>
   <ExtraParams/>
   <DateInstalled>1475716305</DateInstalled>
-  <Description/>
+  <Description/> MongoDB document databases provide high availability and easy scalability.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>
