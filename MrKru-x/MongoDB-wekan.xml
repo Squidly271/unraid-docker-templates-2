@@ -15,7 +15,7 @@
   <Icon/>
   <ExtraParams/>
   <DateInstalled>1475716305</DateInstalled>
-  <Description/> MongoDB document databases provide high availability and easy scalability.</Description>
+  <Description> MongoDB document databases provide high availability and easy scalability.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>
