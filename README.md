@@ -1,8 +1,7 @@
 # unraid-docker-templates
 MrKru-x's docker templates for unRAID
 
-This repository holds Docker templates for Docker images to be used in unRAID 6. Currently holds templates for Wekan and mongoDB .
-This repository holds Docker templates for Docker images to be used in unRAID 6. Currently holds templates for Wekan and mongoDB are "work in progress of a "nob"" next is to add email compability to the image.
+This repository holds Docker templates for Docker images to be used in unRAID 6. Currently holds templates for Wekan and mongoDB are "work in progress of a "nob"", next is to add email compability to the image.
 
 Installation
 Go to the unRAID control panel -> extensions -> Docker
