@@ -1,20 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>MongoDB-wekan</Name>
-  <Beta>False</Beta>
   <Repository>mongo</Repository>
-  <Registry/>https://hub.docker.com/_/mongo/</Registry>
+  <Registry/>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support/>
-  <Overview>MongoDB document databases provide high availability and easy scalability.</Overview>
-  <Category>Network:Management Productivity: Tools:</Category>
+  <Overview/>
+  <Category/>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://rawgit.com/MrKru-x/unraid-docker-templates/master/MrKru-x/img/mongo.sh-600x600.png</Icon>
+  <Icon/>
   <ExtraParams/>
   <DateInstalled>1475716305</DateInstalled>
-  <Description/>MongoDB (from "humongous") is a cross-platform document-oriented database. Classified as a NoSQL database, MongoDB eschews the traditional table-based relational database structure in favor of JSON-like documents with dynamic schemas (MongoDB calls the format BSON), making the integration of data in certain types of applications easier and faster. Released under a combination of the GNU Affero General Public License and the Apache License, MongoDB is free and open-source software.</Description>
+  <Description/>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>
