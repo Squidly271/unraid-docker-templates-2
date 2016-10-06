@@ -10,7 +10,7 @@
   <Support/>
   <Overview>Wekan is an open-source and collaborative kanban board application.</Overview>
   <Category>Productivity:</Category>
-  <WebUI/>
+  <WebUI>https://[IP]:[PORT:5555]/</WebUI>
   <TemplateURL/>
   <Icon>https://rawgit.com/MrKru-x/unraid-docker-templates/master/MrKru-x/img/wekan.png</Icon>
   <ExtraParams>--link "MongoDB-wekan:db"</ExtraParams>
