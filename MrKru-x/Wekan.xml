@@ -1,19 +1,21 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Wekan</Name>
+  <Beta>False</Beta>
+  <Project>https://wekan.io/</Project>
   <Repository>mquandalle/wekan:latest</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/mquandalle/wekan/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support/>
-  <Overview/>
-  <Category/>
+  <Overview>Wekan is an open-source and collaborative kanban board application.</Overview>
+  <Category>Productivity:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon/>
+  <Icon>http://emotionalsurvivalkit.com.au/wp-content/post-its/post-it%20note6.png</Icon>
   <ExtraParams>--link "MongoDB-wekan:db"</ExtraParams>
   <DateInstalled>1475738341</DateInstalled>
-  <Description/>
+  <Description>Whether you’re maintaining a personal todo list, planning your holidays with some friends, or working in a team on your next revolutionary idea, Kanban boards are an unbeatable tool to keep your things organized. They give you a visual overview of the current state of your project, and make you productive byallowing you to focus on the few items that matter the most.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
