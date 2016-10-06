@@ -12,7 +12,7 @@
   <Category>Productivity:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://github.com/MrKru-x/unraid-docker-templates/tree/master/MrKru-x/img/wekan.png</Icon>
+  <Icon>https://rawgit.com/MrKru-x/unraid-docker-templates/master/MrKru-x/img/wekan.png</Icon>
   <ExtraParams>--link "MongoDB-wekan:db"</ExtraParams>
   <DateInstalled>1475738341</DateInstalled>
   <Description>Whether you’re maintaining a personal todo list, planning your holidays with some friends, or working in a team on your next revolutionary idea, Kanban boards are an unbeatable tool to keep your things organized. They give you a visual overview of the current state of your project, and make you productive byallowing you to focus on the few items that matter the most.</Description>
