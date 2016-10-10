@@ -24,13 +24,6 @@
       </Port>
     </Publish>
   </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user</HostDir>
-      <ContainerDir>/unraid</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
   <Environment>
     <Variable>
       <Value>http://127.0.0.1:5555</Value>
