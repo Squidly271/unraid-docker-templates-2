@@ -58,5 +58,5 @@
   <Config Name="unRAID Share Path" Target="/unraid" Default="/mnt/user" Mode="rw" Description="" Type="Path" Display="hidden" Required="false" Mask="false">/mnt/user</Config>
   <Config Name="smtp variable" Target="MAIL_URL" Default="" Mode="" Description="Set your smtp server ex. (If using Gmail)&#13;&#10;smtp://address@gmail.com:pwd@smtp.gmail.com:465/" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Email from variable" Target="MAIL_FROM" Default="" Mode="" Description="Who to send the mail from MAIL_FROM='wekan address@gmail.com'" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="Varible MONGO_URL" Target="MONGO_URL" Default="mongodb://db" Mode="" Description="Container Variable: MONGO_URL" Type="Variable" Display="advanced-hide" Required="false" Mask="false">mongodb://db</Config>
+  <Config Name="Varible MONGO_URL" Target="MONGO_URL" Default="mongodb://db" Mode="" Description="Container Variable: MONGO_URL" Type="Variable" Display="always-hide" Required="false" Mask="false">mongodb://db</Config>
 </Container>
