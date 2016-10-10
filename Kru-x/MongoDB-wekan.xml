@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>MongoDB-wekan</Name>
-  <Project>https://www.mongodb.com/</Project>
   <Repository>mongo</Repository>
   <Registry>https://hub.docker.com/_/mongo/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support/>
+  <Overview/>
   <Category/>
   <WebUI/>
   <TemplateURL/>
   <Icon>https://rawgit.com/Kru-x/unraid-docker-templates/master/Kru-x/img/mongo.sh-600x600.png</Icon>
   <ExtraParams/>
-  <DateInstalled>1475966264</DateInstalled>
+  <DateInstalled>1476142487</DateInstalled>
   <Description> MongoDB document databases provide high availability and easy scalability.</Description>
   <Networking>
     <Mode>bridge</Mode>
