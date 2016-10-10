@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support/>
-  <Overview>Wekan is an open-source and collaborative kanban board application.</Overview>
+  <Overview>Wekan is an open-source and collaborative kanban board application. This template has to be used with the MongoDB-wekan in my repo, if renaming the database change the --link "MongoDB-wekan:db" in Extra Parameters in Advanced View</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:5555]/</WebUI>
   <TemplateURL/>
