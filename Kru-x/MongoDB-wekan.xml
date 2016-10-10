@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>MongoDB-wekan</Name>
-  <Beta>False</Beta>
   <Project>https://www.mongodb.com/</Project>
   <Repository>mongo</Repository>
   <Registry>https://hub.docker.com/_/mongo/</Registry>
@@ -12,9 +11,9 @@
   <Category/>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://rawgit.com/MrKru-x/unraid-docker-templates/master/MrKru-x/img/mongo.sh-600x600.png</Icon>
+  <Icon>https://rawgit.com/Kru-x/unraid-docker-templates/master/Kru-x/img/mongo.sh-600x600.png</Icon>
   <ExtraParams/>
-  <DateInstalled>1475716305</DateInstalled>
+  <DateInstalled>1475966264</DateInstalled>
   <Description> MongoDB document databases provide high availability and easy scalability.</Description>
   <Networking>
     <Mode>bridge</Mode>
@@ -24,6 +23,11 @@
     <Volume>
       <HostDir>/mnt/user/appdata/MongoDB/</HostDir>
       <ContainerDir>/data/db</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user</HostDir>
+      <ContainerDir>/unraid</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
@@ -42,4 +46,5 @@
   <Config Name="AppData Config Path" Target="/data/db" Default="" Mode="rw" Description="Where to store the database/wekan's data (backup this folder if it is stored on the cache drive only)" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/MongoDB/</Config>
   <Config Name="Variable 1" Target="PUID" Default="" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="Variable 2" Target="PGID" Default="" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="unRAID Share Path" Target="/unraid" Default="/mnt/user" Mode="rw" Description="" Type="Path" Display="hidden" Required="false" Mask="false">/mnt/user</Config>
 </Container>
