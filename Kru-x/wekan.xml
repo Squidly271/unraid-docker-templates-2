@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Wekan</Name>
+  <Repository>mquandalle/wekan:latest</Repository>
+  <Registry>https://hub.docker.com/r/mquandalle/wekan/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Overview>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template has to be used with the MongoDB-wekan in my repo, if renaming the database change the --link "MongoDB-wekan:db" in Extra Parameters in Advanced View</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://rawgit.com/Kru-x/unraid-docker-templates/master/Kru-x/img/wekan.png</Icon>
+  <ExtraParams>--link "mongodb-wekan:db"</ExtraParams>
+  <DateInstalled>1476160097</DateInstalled>
+  <Description>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template has to be used with the MongoDB-wekan in my repo, if renaming the database change the --link "MongoDB-wekan:db" in Extra Parameters in Advanced View</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5555</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value>http://</Value>
+      <Name>ROOT_URL</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>
+      <Name>MAIL_URL</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>
+      <Name>MAIL_FROM</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>mongodb://db</Value>
+      <Name>MONGO_URL</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Config Name="Varible ROOT_URL" Target="ROOT_URL" Default="" Mode="" Description="Ipadress and port chosen for the Wekan site/server, change to your setup. It is for the internal working of the board. &#13;&#10;ex. http://127.0.0.1:80" Type="Variable" Display="always" Required="true" Mask="false">http://</Config>
+  <Config Name="Port for webinterface" Target="80" Default="" Mode="tcp" Description="Port for your wekan site" Type="Port" Display="always" Required="false" Mask="false">5555</Config>
+  <Config Name="Variable MAIL_URL" Target="MAIL_URL" Default="" Mode="" Description="Set your smtp server ex. (If using Gmail)&#13;&#10;smtp://address@gmail.com:pwd@smtp.gmail.com:465/" Type="Variable" Display="always" Required="false" Mask="false">
+  <Config Name="Variable MAIL_FROM" Target="MAIL_FROM" Default="" Mode="" Description="Who to send the mail from ex. wekan address@gmail.com" Type="Variable" Display="always" Required="false" Mask="false">
+  <Config Name="Varible MONGO_URL" Target="MONGO_URL" Default="mongodb://db" Mode="" Description="Container Variable: MONGO_URL" Type="Variable" Display="advanced-hide" Required="false" Mask="false">mongodb://db</Config>
+</Container>
