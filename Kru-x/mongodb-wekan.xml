@@ -26,5 +26,5 @@
     </Volume>
   </Data>
   <Environment/>
-  <Config Name="AppData Config Path" Target="/data/db" Default="" Mode="rw" Description="Where to store the database/wekan's data (backup this folder if it is stored on the cache drive only)" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/MongoDB/</Config>
+  <Config Name="AppData Config Path" Target="/data/db" Default="" Mode="rw" Description="Where to store the database/wekan's data (backup this folder if it is stored on the cache drive only)" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/mongodb-wekan/</Config>
 </Container>
