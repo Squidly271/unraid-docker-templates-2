@@ -12,7 +12,7 @@
   <TemplateURL/>
   <Icon>https://rawgit.com/Kru-x/unraid-docker-templates/master/Kru-x/img/wekan.png</Icon>
   <ExtraParams>--link "MongoDB-wekan:db"</ExtraParams>
-  <DateInstalled>
+  <DateInstalled>1476157445</DateInstalled>
   <Description>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template has to be used with the MongoDB-wekan in my repo, if renaming the database change the --link "MongoDB-wekan:db" in Extra Parameters in Advanced View</Description>
   <Networking>
     <Mode>bridge</Mode>
