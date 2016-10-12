@@ -6,14 +6,14 @@
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support/>
-  <Overview>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template has to be used with the MongoDB-wekan in my repo, if renaming the database change the --link "MongoDB-wekan:db" in Extra Parameters in Advanced View</Overview>
+  <Overview>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template is only tested to be used with the MongoDB-wekan in my repo, if renaming the database change the --link "mongodb-wekan:db" in Extra Parameters in Advanced View</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <TemplateURL/>
   <Icon>https://rawgit.com/Kru-x/unraid-docker-templates/master/Kru-x/img/wekan.png</Icon>
   <ExtraParams>--link "mongodb-wekan:db"</ExtraParams>
   <DateInstalled>1476161892</DateInstalled>
-  <Description>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template has to be used with the MongoDB-wekan in my repo, if renaming the database change the --link "MongoDB-wekan:db" in Extra Parameters in Advanced View</Description>
+  <Description>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template is only tested to be used with the MongoDB-wekan in my repo, if renaming the database change the --link "mongodb-wekan:db" in Extra Parameters in Advanced View</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
