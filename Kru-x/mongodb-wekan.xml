@@ -7,7 +7,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Overview/>
-  <Category/>
+  <Category>Productivity: Tools:</Category>
   <WebUI/>
   <TemplateURL/>
   <Icon>https://rawgit.com/Kru-x/unraid-docker-templates/master/Kru-x/img/mongo.sh-600x600.png</Icon>
