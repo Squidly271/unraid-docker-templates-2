@@ -10,4 +10,4 @@ In the textarea for Template repositories add https://github.com/Kru-x/unraid-do
 
 Dockerhub
 
-This is to add Maxime Quandalle's <mquandalle@wekan.io> image to unRAID. All credit for the images goes to Maxime (https://hub.docker.com/r/mquandalle/wekan) and the maintainer of the official mongo image (https://hub.docker.com/r/_/mongo)
+This is to add Maxime Quandalle's <mquandalle@wekan.io> image to unRAID. All credit for the images goes to Maxime (https://hub.docker.com/r/mquandalle/wekan
