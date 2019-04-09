@@ -6,14 +6,14 @@
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support/>
-  <Overview>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template has to be used with a MongoDB container one is in Taddeusz' Repository and can be found in Community Applications, if renaming the database change the --link "mongodb:db" in Extra Parameters in Advanced View</Overview>
+  <Overview>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template has to be used with a MongoDB container one is in Taddeusz' Repository and can be found in Community Applications, if renaming the database change the --link "MongoDB:db" in Extra Parameters in Advanced View</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <TemplateURL/>
   <Icon>https://rawgit.com/Kru-x/unraid-docker-templates/master/Kru-x/img/wekan.png</Icon>
-  <ExtraParams>--link "mongodb:db"</ExtraParams>
+  <ExtraParams>--link "MongoDB:db"</ExtraParams>
   <DateInstalled>1476161892</DateInstalled>
-  <Description>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template has to be used with a MongoDB container one is in Taddeusz' Repository and can be found in Community Applications, if renaming the database change the --link "mongodb:db" in Extra Parameters in Advanced View</Description>
+  <Description>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template has to be used with a MongoDB container one is in Taddeusz' Repository and can be found in Community Applications, if renaming the database change the --link "MongoDB:db" in Extra Parameters in Advanced View</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -42,7 +42,7 @@
       <Mode/>
     </Variable>
     <Variable>
-      <Value>mongodb://db</Value>
+      <Value>MongoDB://db</Value>
       <Name>MONGO_URL</Name>
       <Mode/>
     </Variable>
