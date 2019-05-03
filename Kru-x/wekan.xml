@@ -8,7 +8,7 @@
   <Privileged>false</Privileged>
   <Support>http://lime-technology.com/forum/index.php?topic=52687.0</Support>
   <Project/>
-  <Overview>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template has to be used with a MongoDB container one is in Taddeusz' Repository and can be found in Community Applications, if renaming the database change the --link "MongoDB:db" in Extra Parameters in Advanced View</Overview>
+  <Overview>Wekan is an open-source and collaborative kanban board application https://wekan.github.io/ . This template has to be used with a MongoDB container one is in Taddeusz' Repository and can be found in Community Applications, if renaming the database change the --link "MongoDB:db" in Extra Parameters in Advanced View</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:5555]/</WebUI>
   <TemplateURL/>
@@ -17,9 +17,9 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1554782373</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
-  <Description>Wekan is an open-source and collaborative kanban board application https://wekan.io/ . This template has to be used with a MongoDB container one is in Taddeusz' Repository and can be found in Community Applications, if renaming the database change the --link "MongoDB:db" in Extra Parameters in Advanced View</Description>
+  <DonateText/>I would be happy to drink a beer on your behalf if you like my efforts, or/and head over to https://unraid.net/blog/merch-shop any buy yourself a t-shirt for a good cause and to show your appreciation (and mine) for an excellent Unraid.</DonateText>
+  <DonateLink/>https://paypal.me/krux66?locale.x=en_AU</DonateLink>
+  <Description>Wekan is an open-source and collaborative kanban board application https://wekan.github.io/ . This template has to be used with a MongoDB container one is in Taddeusz' Repository and can be found in Community Applications, if renaming the database change the --link "MongoDB:db" in Extra Parameters in Advanced View</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
